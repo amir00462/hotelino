@@ -1,16 +1,46 @@
-# hotelino
+# Hotelino 🏨📱
 
-A new Flutter project.
+## 🔧 A Full-Featured Hotel Booking App — Made with Flutter
 
-## Getting Started
+**Hotelino** is a clean, scalable, and production-ready hotel & stay booking app developed with Flutter.  
+This project is part of the **Yaghoot Flutter Course** on [Dunijet.ir](https://dunijet.ir/product/yaghoot-flutter/) — a hands-on training series by **Amir Hossein Mohammadi**.
 
-This project is a starting point for a Flutter application.
+> 💡 This repo is **commit-by-commit aligned** with the course, so learners can follow every step of development clearly.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📚 Course Info
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🎓 **Course Title**: [یاقوت فلاتر (Yaghoot Flutter)](https://dunijet.ir/product/yaghoot-flutter/)
+- 🧑‍🏫 Instructor: Amir Hossein Mohammadi
+- 📹 Recording in Progress — Source code is live and public
+- 🧠 Covers: `SOLID`, `Clean Architecture`, `State Management`, `UI Design`, `Best Practices`
+
+---
+
+## 🚀 App Features
+
+- 🏨 Hotel & accommodation listing
+- 🗺️ Interactive map with markers & tiles
+- 🖼️ Full-screen image viewer
+- 📅 Booking & calendar logic
+- 📱 Adaptive UI for mobile and web
+- 🔐 Ready for backend integration
+
+---
+
+## 🧱 Project Structure
+
+```bash
+hotelino/
+├── android/               # Android-specific files
+├── ios/                   # iOS-specific files
+├── linux/ macos/ windows/ # Desktop support
+├── lib/
+│   ├── core/              # Core architecture, models, services
+│   ├── features/          # Feature-wise folders (e.g. hotel_detail, auth, etc.)
+│   └── main.dart          # App entry point
+├── assets/                # Images, fonts, etc.
+├── test/                  # Unit / widget tests
+├── pubspec.yaml           # Dependencies
+└── README.md              # This file
